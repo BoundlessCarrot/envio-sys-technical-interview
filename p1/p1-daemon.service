@@ -1,0 +1,8 @@
+[Unit]
+Description=Change the output of gpio X based on the state of gpio Y. X and Y are provided by the user.
+
+[Service]
+ExecStart=/usr/sbin/p1
+
+[Install]
+WantedBy=multi-user.target
